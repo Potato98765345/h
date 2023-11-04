@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><base href="." target="_blank"></head>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/736x/6c/f5/34/6cf5349bc6071da1fb3ff3b4b14595d8.jpg'); /* Set your background image file */
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically */
+            align-items: flex-start; /* Align buttons to the left */
+            height: 100vh;
+            margin: 0;
+        }
+        .button {
+            width: 300px;
+            height: 100px;
+            background-color: #008000;
+            color: white;
+            font-size: 32px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px; /* Rounded corners */
+		margin: 15px 0; /* Spacing between buttons */
+        }
+
+        .botton:hover {
+            background-color: #00ff00;
+        }
+    </style>
+<body>
+    <button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@0d9afabd2522344a702e1b692ad58039f6290b0d/build/c-c/cc.xml')">Cookie Clicker</button>
+    <button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml')">Snow Rider 3D</button>
+    <button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fjacksmith.xml')">JackSmith</button>
+    <button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/WebStarterkit@ebc61d8a952e7630c8c5ca3410335bf5d5f04711/src/sp.xml')">Slope</button>
+    <button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://427396048-642845057394716217.preview.editmysite.com/uploads/b/139890129-761103484729797659/files/ovo.xml')">OvO</button>
+	<button class="button" onclick="openGame('https://book-opensocial.googleusercontent.com/gadgets/ifr?url=https://274079163-174037128449362058.preview.editmysite.com/uploads/b/139890129-899796311729593176/files/rtbl.xml')">Retro Bowl</button>
+	<button class="button" onclick="openGame('https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2F1-on-1-tennis.xml')">Tennis</button>
+
+    <!--button template-->
+    <!--<button class="button" onclick="openGame('GAME URL')">GAME NAME</button>-->
+
+    <script>
+        function openGame(url) {
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
