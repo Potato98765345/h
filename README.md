@@ -1,6 +1,4 @@
-
-<!-- saved from url=(0259)https://615110777-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.AOzoyjtjrhQ.O%2Fd%3D1%2Frs%3DAHpOoo9-fA1P7IZFa1fdRj158NoDqrnbYA%2Fm%3D__features__ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base target="_blank">--><base href="." target="_blank"></head><body><button class="c-button">PLAY FULLSCREEN</button>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><base href="." target="_blank"></head><body><button class="c-button">PLAY FULLSCREEN</button>
 <style>
 
 <script>
