@@ -1,3 +1,6 @@
+To open a game in fullscreen when clicking on a text element, you can use the following HTML and JavaScript:
+
+```html
 <center>
   <div id="fullscreen-text" style="cursor: pointer; text-decoration: underline; color: blue;">Play in Fullscreen</div>
 </center>
@@ -9,7 +12,7 @@ function openGame() {
   var url = "URL BRUH";
   var iframe = win.document.createElement('iframe');
   iframe.style.width = "100%";
-  iframe.style.height = "100%";
+  iframe style.height = "100%";
   iframe.style.border = "none";
   iframe.src = url;
   win.document.body.appendChild(iframe);
