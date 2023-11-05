@@ -1,1 +1,1 @@
-[The Button](thebutton.html)
+[The Button](theotherbutton.html)
