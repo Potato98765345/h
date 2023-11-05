@@ -1,6 +1,3 @@
-To open a game in fullscreen when clicking on a text element, you can use the following HTML and JavaScript:
-
-```html
 <center>
   <div id="fullscreen-text" style="cursor: pointer; text-decoration: underline; color: blue;">Play in Fullscreen</div>
 </center>
