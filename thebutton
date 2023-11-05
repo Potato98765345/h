@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><base href="." target="_blank"></head>
+    <style>
+        body {
+            align-items: center; /* Align buttons to the left */
+            height: 100vh;
+            margin: 0;
+        }
+        .button {
+            width: 690;
+            height: 420;
+            background-color: #008000;
+            color: white;
+            font-size: 100;
+            border: none;
+            cursor: pointer;
+            border-radius: 20; /* Rounded corners */
+		margin: 15px 0; /* Spacing between buttons */
+        }
+
+        .button:hover {
+            background-color: #00ff00;
+		color: black;
+        }
+    </style>
+<body>
+    <button class="button" onclick="openGame('')">The Page</button>
+
+    <!--button template-->
+    <!--<button class="button" onclick="openGame('GAME URL')">GAME NAME</button>-->
+
+    <script>
+        function openGame(url) {
+            var win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
