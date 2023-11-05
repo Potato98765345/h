@@ -26,7 +26,7 @@
         }
     </style>
 <body>
-    <button class="button" onclick="openGame('')">The Page</button>
+    <button class="button" onclick="openGame('https://potato98765345.github.io/h/classroom.google.com.html')">The Page</button>
 
     <!--button template-->
     <!--<button class="button" onclick="openGame('GAME URL')">GAME NAME</button>-->
